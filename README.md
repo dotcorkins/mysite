@@ -1,4 +1,4 @@
 # my website
-its not a trojan i swear bro
+its not a trojan bro
 
 `trojan.exe`
