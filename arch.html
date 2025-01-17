@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body id="body">
+<div id="bar">
+<a href="index.html"><img src="logo.png"></a>
+<h2 id="barhead">[user@site Nav]$ </h2><br><a href="projects.html"id="links">Home</a><br><a  href="index.html"id="links">Projects</a><br>
+<h2 id="barhead">[user@site Under_Construction]$ </h2>
+</div>
+<div id="content"><h1 id="context">Arch Linux Install Guide 2024</h1><p id=GuideText>Arch linux is a cool distro. Lets install it.<br> <a href="https://wiki.archlinux.org/title/Installation_guide">[source]<br></a> I reccomend just reading this. MUCH better.</p><p id="warning">This guide may pertain programs specific to windows. Like rufus USB flashing. But if you're on linux already, I assume you know how to flash USB's on linux.</p> <p id="GuideText"> First you have to acquire a <a href="https://archlinux.org/download/">archlinux ISO.</a> Scroll down to the mirrors and select the one you want. I always go with arizona state's mirror. After this (if on windows) download the rufus program. Open rufus and plug in your USB. I reccomend this USB to be a minimum of 8gb in size. Then select the ISO and flash it to the drive. Now, go into your BIOS and make sure secure boot is disabled. Reboot into windows, plug the USB in. Boot into BIOS and make sure the USB is first in the boot priority. Hopefully this works. You should be booted into the live USB. Connect to the internet. How? using the iwctl utility. run <br><code># iwctl</code><br>then run <br> <code># iwctl station list</code></p></div>
+
+</body>
+</html>

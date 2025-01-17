@@ -1,0 +1,67 @@
+#bar {
+width:140px;
+height:1080px;
+border-right: 1px solid grey;
+float:left;
+font-size: 15px;
+background-color:white;
+}
+
+body {
+}
+
+#content {
+padding:1em;
+border:1px solid grey;
+height:1080px;
+width:1000px;
+margin-right:auto;
+margin-left:auto;
+}
+
+#barhead {
+font-size: 15px;
+font-family: sans-serif;
+font-weight:bold;
+word-wrap:break-word;
+}
+
+#links {
+color:#147baa;
+word-wrap: break-word;
+}
+
+#context {
+font-family:sans-serif;
+font-size: 2em;
+color:black;
+text-decoration:underline;
+text-align: center;
+}
+
+#link2 {
+font-family:sans-serif;
+font-weight:normal;
+padding:0.7em;
+text-align: center;
+}
+
+#GuideText {
+font-family:sans-serif;
+font-weight:normal;
+padding:0.7em;
+text-align: center;
+}
+
+#warning {
+font-size:0.7em;
+font-family:sans-serif;
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+padding:0.8em;
+}
+
+code {
+border: 1px ridge grey;
+}
